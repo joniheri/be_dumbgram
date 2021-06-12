@@ -2,7 +2,7 @@
 const express = require("express");
 
 // import our router
-const router1 = require("./src/routers/index");
+const router1 = require("./src/routers/router1");
 
 const app = express();
 
