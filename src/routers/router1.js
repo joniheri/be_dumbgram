@@ -43,6 +43,7 @@ const {
   detailUser,
   updateUser,
   deleteUser,
+  register,
 } = require("../controllers/tbUser");
 
 // make tbUser router
@@ -51,6 +52,7 @@ router.get("/detailuser/:id", detailUser);
 router.post("/adduser", addUser);
 router.patch("/updateuser/:id", updateUser);
 router.delete("/deleteuser/:id", deleteUser);
+router.post("/registeruser/", register);
 // end make tbUser router
 
 module.exports = router;
